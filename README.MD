@@ -1,5 +1,7 @@
 
-This is the first release of 3D Ocean with Animated Fishes.
+This is the first release of 3D Ocean with Animated Fishes. 
+
+It is made using a Template I've been developing in Unity, to allow faster development of 3D Experiences and Applications. 
 
 Fish models from ffish.asia / floraZia.com on Sketchfab
 Original Models (License CC-BY): https://sketchfab.com/ffishAsia-and-floraZia
