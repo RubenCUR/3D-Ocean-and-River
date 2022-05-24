@@ -117,7 +117,8 @@ public class Spawner : MonoBehaviour
             //objects[16] = instance;
         }
 
-        LatestActiveInstanceID = goDefaultActiveInstanceObject.GetInstanceID();
+        if(goDefaultActiveInstanceObject != null)
+            LatestActiveInstanceID = goDefaultActiveInstanceObject.GetInstanceID();
     }
 
     void Start()
@@ -139,7 +140,8 @@ public class Spawner : MonoBehaviour
 
         RecalculateCurrentPosAndRot();
 
-        LatestActiveInstanceID = goDefaultActiveInstanceObject.GetInstanceID();
+        if (goDefaultActiveInstanceObject != null)
+            LatestActiveInstanceID = goDefaultActiveInstanceObject.GetInstanceID();
 
         CinemachineCore.CameraUpdatedEvent.AddListener(UpdateObjectPosition);
         
@@ -429,9 +431,14 @@ public class Spawner : MonoBehaviour
         //Object Collections 1 (), 2 (), 3 ()
         GameObject[] listOfAllTemplateObjects = new GameObject[objects.Count + objects1.Count + objects2.Count];
 
-        objects.CopyTo(listOfAllTemplateObjects, 0);
-        objects1.CopyTo(listOfAllTemplateObjects, objects.Count);
-        objects2.CopyTo(listOfAllTemplateObjects, objects1.Count + objects.Count);
+        //if(objects.Count > 0)
+            objects.CopyTo(listOfAllTemplateObjects, 0);
+
+        //if (objects1.Count > 0)
+            objects1.CopyTo(listOfAllTemplateObjects, objects.Count);
+
+        //if (objects2.Count > 0)
+            objects2.CopyTo(listOfAllTemplateObjects, objects1.Count + objects.Count);
 
         if(goLoadedObjects != null)
         {

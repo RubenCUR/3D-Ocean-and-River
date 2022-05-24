@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{75F7CA85-C805-4D55-77FD-E435B9BDE37E}</ProjectGuid>
+    <ProjectGuid>{B1F4F1C5-CBFC-6652-53A2-4FE4C01A3C08}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -1265,7 +1265,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ClientNetworkTransform.csproj">
-      <Project>{355579B5-9EEB-8CCB-4E9D-B3849BDE40E7}</Project>
+      <Project>{7E99750F-C71A-A27D-2A0D-EFF6849C3459}</Project>
       <Name>ClientNetworkTransform</Name>
     </ProjectReference>
   </ItemGroup>

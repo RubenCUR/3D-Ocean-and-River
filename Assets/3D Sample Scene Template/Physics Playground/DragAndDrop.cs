@@ -121,7 +121,7 @@ public class DragAndDrop : MonoBehaviour
             direction = Target.transform.position - transform.position;
             direction.Normalize();
 
-            Debug.Log("Magnitude: " + direction.magnitude);
+            //Debug.Log("Magnitude: " + direction.magnitude);
 
             //Debug.DrawRay(transform.position, direction, Color.green);
 

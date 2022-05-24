@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{89E1CA9B-2E96-3AC4-E025-ED1083A0E849}</ProjectGuid>
+    <ProjectGuid>{3823928B-82B5-EBF1-C8D7-D49076FD2B14}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -1170,11 +1170,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{75F7CA85-C805-4D55-77FD-E435B9BDE37E}</Project>
+      <Project>{B1F4F1C5-CBFC-6652-53A2-4FE4C01A3C08}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="ClientNetworkTransform.csproj">
-      <Project>{355579B5-9EEB-8CCB-4E9D-B3849BDE40E7}</Project>
+      <Project>{7E99750F-C71A-A27D-2A0D-EFF6849C3459}</Project>
       <Name>ClientNetworkTransform</Name>
     </ProjectReference>
   </ItemGroup>

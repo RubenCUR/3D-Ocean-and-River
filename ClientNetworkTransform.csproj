@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Unity.Netcode.Samples</RootNamespace>
-    <ProjectGuid>{355579B5-9EEB-8CCB-4E9D-B3849BDE40E7}</ProjectGuid>
+    <ProjectGuid>{7E99750F-C71A-A27D-2A0D-EFF6849C3459}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ClientNetworkTransform</AssemblyName>

@@ -164,7 +164,7 @@ namespace UnityTemplateProjects
             /////
             Cursor.visible = true;
 
-            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.lockState = CursorLockMode.Locked;
 
             if (goMaterials != null)
                 goMaterials.SetActive(false);
@@ -201,10 +201,12 @@ namespace UnityTemplateProjects
                 if (goMaterials != null)
                     goMaterials.SetActive(true);
 
-                foreach (GameObject item in spwn.outlinedObjects)
-                {
-                    item.SetActive(false);
-                }
+                if(spwn != null)
+                    foreach (GameObject item in spwn.outlinedObjects)
+                    {
+                        if(item != null)
+                            item.SetActive(false);
+                    }
             }
             else if (Input.GetKeyDown(KeyCode.Period))
             {
