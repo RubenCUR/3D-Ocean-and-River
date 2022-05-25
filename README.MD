@@ -1,5 +1,5 @@
 
-This is the first release of 3D Ocean with Animated Fishes. 
+This is the second release of 3D Ocean and River (F5) with Animated Fishes. 
 
 3D Ocean Demo - [Download here (Windows)](https://github.com/RubenCUR/3D-Ocean/releases/download/first-version/3D.Ocean.zip)
 
